@@ -10,5 +10,4 @@ Console.WriteLine("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int fristDigit = number /10;
 int result = fristDigit % 10;
-Console.WriteLine(number);
 Console.WriteLine(result);
